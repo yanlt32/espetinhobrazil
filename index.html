@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Espetinho Brasil – O sabor mais autêntico da Zona Leste</title>
+    
+    <!-- META TAGS SEO -->
+    <meta name="description" content="Espetinho Brasil na Zona Leste de SP: espetinhos artesanais, ambiente familiar e pedidos pelo WhatsApp. O verdadeiro sabor brasileiro!">
+    <meta name="keywords" content="espetinho, churrasco, Zona Leste, São Paulo, espetinho brasil, comida brasileira, carne, frango, linguiça, almoço, marmita, happy hour">
+    <meta name="author" content="Espetinho Brasil">
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="São Paulo, Zona Leste">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.espetinhobrasil.com.br">
+    
+    <!-- OPEN GRAPH / FACEBOOK -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.espetinhobrasil.com.br">
+    <meta property="og:title" content="Espetinho Brasil - O sabor mais autêntico da Zona Leste">
+    <meta property="og:description" content="Espetinhos artesanais, ambiente acolhedor e o melhor tempero brasileiro. Peça pelo WhatsApp!">
+    <meta property="og:image" content="https://www.espetinhobrasil.com.br/og-image.jpg">
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+    
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS PRINCIPAL -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- BOTÃO WHATSAPP FLUTUANTE -->
+    <a href="https://wa.me/5511999999999?text=Olá!%20Quero%20fazer%20um%20pedido%20no%20Espetinho%20Brasil%20🔥" 
+       class="whatsapp-float" 
+       target="_blank" 
+       aria-label="Pedir no WhatsApp"
+       id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Peça aqui!</span>
+    </a>
+
+    <!-- HEADER / NAVEGAÇÃO -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🔥</span>
+                <span class="logo-text">Espetinho<span>Brasil</span></span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                    <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#avaliacoes" class="nav-link">Avaliações</a></li>
+                    <li><a href="#localizacao" class="nav-link">Localização</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1️⃣ HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <span class="hero-badge">🔥 Desde 2015 na Zona Leste</span>
+                <h1 class="hero-title">
+                    O Sabor Mais <span class="text-gradient">Brasileiro</span> da Zona Leste
+                </h1>
+                <p class="hero-subtitle">
+                    Espetinhos feitos no capricho, no ponto certo e com aquele tempero que conquista. 
+                    Ambiente acolhedor para família e amigos.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5511999999999?text=Olá!%20Quero%20fazer%20um%20pedido%20🔥" 
+                       class="btn btn-wa btn-large" 
+                       target="_blank">
+                        <i class="fab fa-whatsapp"></i> Pedir no WhatsApp
+                    </a>
+                    <a href="#localizacao" class="btn btn-outline">
+                        <i class="fas fa-map-marker-alt"></i> Como chegar
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <span>Siga nas redes:</span>
+                    <a href="https://instagram.com/espetinhobrasil" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://facebook.com/espetinhobrasil" target="_blank" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://tiktok.com/@espetinhobrasil" target="_blank" class="social-link">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <div class="image-wrapper">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='500' viewBox='0 0 600 500'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23f3b229'/%3E%3Cstop offset='100%25' stop-color='%230f7b3a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='500' fill='%233d2b1a'/%3E%3Ccircle cx='300' cy='250' r='150' fill='%23ff4500' opacity='0.9'/%3E%3Crect x='150' y='210' width='300' height='80' fill='%23b87c4b' rx='10'/%3E%3Ccircle cx='220' cy='250' r='25' fill='%23d2691e'/%3E%3Ccircle cx='380' cy='250' r='25' fill='%23d2691e'/%3E%3Ctext x='200' y='350' fill='%23fff' font-size='32' font-weight='bold' font-family='Poppins'%3E🔥 ESPETINHOS%3C/text%3E%3C/svg%3E"
+                         alt="Espetinhos na brasa" class="hero-img">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-fire"></i>
+                        <span>+50 tipos</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-star"></i>
+                        <span>5 estrelas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fef9e7" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,170.7C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- 2️⃣ SOBRE NÓS -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nossa história</span>
+                <h2 class="section-title">Mais que um restaurante,<br>um ponto de encontro</h2>
+            </div>
+            
+            <div class="sobre-grid">
+                <div class="sobre-content" data-aos="fade-right">
+                    <p class="sobre-texto">
+                        O <strong>Espetinho Brasil</strong> nasceu em 2015 com um sonho simples: oferecer qualidade, 
+                        preço justo e um ambiente onde as pessoas pudessem se reunir com quem amam.
+                    </p>
+                    <p class="sobre-texto">
+                        Aqui a tradição do espetinho se encontra com um atendimento próximo e acolhedor. 
+                        Cada espetinho é preparado com carinho, do tempero ao ponto certo da brasa.
+                    </p>
+                    
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div>
+                                <h4>Tradição na brasa</h4>
+                                <p>Mais de 8 anos de experiência</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div>
+                                <h4>Atendimento familiar</h4>
+                                <p>Você é tratado como amigo</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div>
+                                <h4>Qualidade garantida</h4>
+                                <p>Ingredientes selecionados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sobre-stats" data-aos="fade-left">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="8">0</span>
+                            <span class="stat-label">Anos de tradição</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="50">0</span>
+                            <span class="stat-label">Tipos de espetinhos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="15">0</span>
+                            <span class="stat-label">Mil clientes/mês</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Estrelas no Google</span>
+                        </div>
+                    </div>
+                    
+                    <div class="sobre-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Aqui o carvão nunca esfria e a amizade nunca acaba</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ CARDÁPIO -->
+    <section id="cardapio" class="cardapio">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Sabores que encantam</span>
+                <h2 class="section-title">Nosso Cardápio</h2>
+            </div>
+            
+            <!-- CATEGORIAS TABS -->
+            <div class="categorias-tabs" data-aos="fade-up">
+                <button class="categoria-tab active" data-categoria="espetinhos">
+                    <i class="fas fa-utensils"></i>
+                    Espetinhos
+                </button>
+                <button class="categoria-tab" data-categoria="almocos">
+                    <i class="fas fa-sun"></i>
+                    Almoços
+                </button>
+                <button class="categoria-tab" data-categoria="bebidas">
+                    <i class="fas fa-wine-bottle"></i>
+                    Bebidas
+                </button>
+            </div>
+            
+            <!-- ITENS DO CARDÁPIO -->
+            <div class="cardapio-content">
+                <!-- Espetinhos -->
+                <div class="categoria-content active" id="espetinhos">
+                    <div class="cardapio-grid">
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23d2691e'/%3E%3C/svg%3E" alt="Carne">
+                            </div>
+                            <div class="item-info">
+                                <h4>Espetinho de Carne</h4>
+                                <p>Carne bovina selecionada, tempero especial</p>
+                                <span class="item-preco">R$ 12,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="150">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23f4a460'/%3E%3C/svg%3E" alt="Frango">
+                            </div>
+                            <div class="item-info">
+                                <h4>Espetinho de Frango</h4>
+                                <p>Peito de frango marinado na cerveja preta</p>
+                                <span class="item-preco">R$ 10,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23cd5c5c'/%3E%3C/svg%3E" alt="Linguiça">
+                            </div>
+                            <div class="item-info">
+                                <h4>Linguiça Artesanal</h4>
+                                <p>Linguiça toscana com ervas finas</p>
+                                <span class="item-preco">R$ 9,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="250">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%238b4513'/%3E%3C/svg%3E" alt="Coração">
+                            </div>
+                            <div class="item-info">
+                                <h4>Coração de Frango</h4>
+                                <p>Limpo e temperado na medida certa</p>
+                                <span class="item-preco">R$ 13,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23deb887'/%3E%3C/svg%3E" alt="Kafta">
+                            </div>
+                            <div class="item-info">
+                                <h4>Kafta</h4>
+                                <p>Carne moída com hortelã e especiarias</p>
+                                <span class="item-preco">R$ 11,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="350">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23f0e68c'/%3E%3C/svg%3E" alt="Queijo Coalho">
+                            </div>
+                            <div class="item-info">
+                                <h4>Queijo Coalho</h4>
+                                <p>Grelhado na brasa, crocante por fora</p>
+                                <span class="item-preco">R$ 10,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23a0522d'/%3E%3C/svg%3E" alt="Medalhão">
+                            </div>
+                            <div class="item-info">
+                                <h4>Medalhão de Carne</h4>
+                                <p>Filé mignon suíno com queijo</p>
+                                <span class="item-preco">R$ 15,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item" data-aos="zoom-in" data-aos-delay="450">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23d2b48c'/%3E%3C/svg%3E" alt="Pão de Alho">
+                            </div>
+                            <div class="item-info">
+                                <h4>Pão de Alho</h4>
+                                <p>Pão francês com pasta de alho e queijo</p>
+                                <span class="item-preco">R$ 8,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Almoços -->
+                <div class="categoria-content" id="almocos">
+                    <div class="cardapio-grid">
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23987654'/%3E%3C/svg%3E" alt="PF">
+                            </div>
+                            <div class="item-info">
+                                <h4>Prato Feito (PF)</h4>
+                                <p>Arroz, feijão, carne, ovo e batata frita</p>
+                                <span class="item-preco">R$ 24,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23543e2e'/%3E%3C/svg%3E" alt="Feijoada">
+                            </div>
+                            <div class="item-info">
+                                <h4>Feijoada Completa</h4>
+                                <p>Tradicional, com carnes, couve e farofa</p>
+                                <span class="item-preco">R$ 32,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23d2691e'/%3E%3C/svg%3E" alt="Strogonoff">
+                            </div>
+                            <div class="item-info">
+                                <h4>Strogonoff de Frango</h4>
+                                <p>Com champignon, batata palha e arroz</p>
+                                <span class="item-preco">R$ 27,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%238b4513'/%3E%3C/svg%3E" alt="Marmita">
+                            </div>
+                            <div class="item-info">
+                                <h4>Marmita Executiva</h4>
+                                <p>Escolha sua proteção + 2 acompanhamentos</p>
+                                <span class="item-preco">R$ 22,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bebidas -->
+                <div class="categoria-content" id="bebidas">
+                    <div class="cardapio-grid">
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23333'/%3E%3C/svg%3E" alt="Refrigerante">
+                            </div>
+                            <div class="item-info">
+                                <h4>Refrigerantes</h4>
+                                <p>Coca-Cola, Guaraná, Fanta (lata ou 600ml)</p>
+                                <span class="item-preco">R$ 6,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23ffa500'/%3E%3C/svg%3E" alt="Suco">
+                            </div>
+                            <div class="item-info">
+                                <h4>Sucos Naturais</h4>
+                                <p>Laranja, limão, maracujá, abacaxi com hortelã</p>
+                                <span class="item-preco">R$ 8,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%23f5deb3'/%3E%3C/svg%3E" alt="Cerveja">
+                            </div>
+                            <div class="item-info">
+                                <h4>Cervejas</h4>
+                                <p>Long neck: Brahma, Skol, Heineken, Corona</p>
+                                <span class="item-preco">R$ 9,00</span>
+                            </div>
+                        </div>
+                        
+                        <div class="cardapio-item">
+                            <div class="item-image">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Ccircle cx='40' cy='40' r='40' fill='%239acd32'/%3E%3C/svg%3E" alt="Drinks">
+                            </div>
+                            <div class="item-info">
+                                <h4>Drinks</h4>
+                                <p>Caipirinha, Caipiroska, Sex on the Beach</p>
+                                <span class="item-preco">R$ 16,00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cardapio-footer" data-aos="fade-up">
+                <p>📞 Pedidos pelo WhatsApp com entrega rápida ou retire no balcão</p>
+                <a href="https://wa.me/5511999999999" class="btn btn-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Fazer pedido
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4️⃣ DIFERENCIAIS DIGITAIS -->
+    <section id="diferenciais" class="diferenciais">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Conectados com você</span>
+                <h2 class="section-title">Experiência digital completa</h2>
+            </div>
+            
+            <div class="diferenciais-grid">
+                <div class="diferencial-card" data-aos="flip-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>Pedido por WhatsApp</h3>
+                    <p>Faça seu pedido de forma rápida e prática. Entregamos em casa ou você retira sem fila.</p>
+                </div>
+                
+                <div class="diferencial-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Promoções exclusivas</h3>
+                    <p>Siga @espetinhobrasil e participe de sorteios e promoções relâmpago toda semana.</p>
+                </div>
+                
+                <div class="diferencial-card" data-aos="flip-up" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Clube de vantagens</h3>
+                    <p>Cadastre-se e acumule pontos. A cada 10 espetinhos, um é por nossa conta!</p>
+                </div>
+                
+                <div class="diferencial-card" data-aos="flip-up" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Espaço para eventos</h3>
+                    <p>Reserve nosso espaço para aniversários, confraternizações e happy hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ GALERIA -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Momentos que valem uma foto</span>
+                <h2 class="section-title">🔥 Aqui o carvão nunca esfria</h2>
+            </div>
+        </div>
+        
+        <div class="galeria-container">
+            <div class="galeria-track" id="galeriaTrack">
+                <div class="galeria-item" data-aos="zoom-in">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23b87c4b'/%3E%3Ccircle cx='200' cy='150' r='80' fill='%238B4513'/%3E%3Ctext x='120' y='200' fill='%23fff' font-size='24'%3E🔥 ESPETINHOS%3C/text%3E%3C/svg%3E" alt="Espetinhos">
+                    <div class="galeria-overlay">
+                        <span>Espetinhos na brasa</span>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23A0522D'/%3E%3Crect x='100' y='100' width='200' height='80' fill='%23D2691E'/%3E%3Ctext x='140' y='200' fill='%23fff' font-size='24'%3E🍖 CHURRASQUEIRA%3C/text%3E%3C/svg%3E" alt="Churrasqueira">
+                    <div class="galeria-overlay">
+                        <span>Churrasqueira sempre acesa</span>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%239C661F'/%3E%3Ccircle cx='150' cy='120' r='40' fill='%23F4A460'/%3E%3Ccircle cx='250' cy='120' r='40' fill='%23F4A460'/%3E%3Ctext x='120' y='220' fill='%23fff' font-size='24'%3E👨‍👩‍👧‍👦 FAMÍLIA%3C/text%3E%3C/svg%3E" alt="Ambiente">
+                    <div class="galeria-overlay">
+                        <span>Ambiente acolhedor</span>
+                    </div>
+                </div>
+                
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%238B4513'/%3E%3Ccircle cx='150' cy='150' r='30' fill='%23D2691E'/%3E%3Ccircle cx='250' cy='150' r='30' fill='%23D2691E'/%3E%3Ctext x='120' y='230' fill='%23fff' font-size='24'%3E🥩 CARNES SELECIONADAS%3C/text%3E%3C/svg%3E" alt="Carnes">
+                    <div class="galeria-overlay">
+                        <span>Carnes selecionadas</span>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="galeria-nav prev" id="galeriaPrev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="galeria-nav next" id="galeriaNext">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        
+        <div class="container">
+            <p class="galeria-legenda" data-aos="fade-up">🇧🇷 Aqui é sabor de verdade, feito com amor e brasa</p>
+        </div>
+    </section>
+
+    <!-- 6️⃣ AVALIAÇÕES -->
+    <section id="avaliacoes" class="avaliacoes">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">O que dizem nossos clientes</span>
+                <h2 class="section-title">Avaliações 5 estrelas</h2>
+            </div>
+            
+            <div class="avaliacoes-slider" id="avaliacoesSlider">
+                <div class="avaliacoes-track">
+                    <div class="avaliacao-card" data-aos="fade-right">
+                        <div class="avaliacao-header">
+                            <div class="avaliador-info">
+                                <strong>Ricardo Mendes</strong>
+                                <span>@ricardo.m</span>
+                            </div>
+                            <div class="estrelas">★★★★★</div>
+                        </div>
+                        <p class="avaliacao-texto">"Melhor espetinho da Zona Leste! Carne macia, tempero top e atendimento nota 10. Já virou ponto de encontro da família toda."</p>
+                        <div class="avaliacao-data">
+                            <i class="fas fa-check-circle" style="color: var(--verde);"></i>
+                            Cliente verificadov
+                        </div>
+                    </div>
+                    
+                    <div class="avaliacao-card" data-aos="fade-up">
+                        <div class="avaliacao-header">
+                            <div class="avaliador-info">
+                                <strong>Juliana Santos</strong>
+                                <span>@ju.santos</span>
+                            </div>
+                            <div class="estrelas">★★★★★</div>
+                        </div>
+                        <p class="avaliacao-texto">"Peço sempre pelo WhatsApp e é muito prático. O coração de frango é sensacional e o strogonoff então... perfeito! Entrega super rápida."</p>
+                        <div class="avaliacao-data">
+                            <i class="fas fa-check-circle" style="color: var(--verde);"></i>
+                            Cliente verificadov
+                        </div>
+                    </div>
+                    
+                    <div class="avaliacao-card" data-aos="fade-left">
+                        <div class="avaliacao-header">
+                            <div class="avaliador-info">
+                                <strong>Carlos Eduardo</strong>
+                                <span>@carlos_edu</span>
+                            </div>
+                            <div class="estrelas">★★★★★</div>
+                        </div>
+                        <p class="avaliacao-texto">"Ambiente gostoso, parece que estamos em casa. Preço justo e comida de qualidade. A feijoada de sábado é imbatível! Recomendo demais!"</p>
+                        <div class="avaliacao-data">
+                            <i class="fas fa-check-circle" style="color: var(--verde);"></i>
+                            Cliente verificadov
+                        </div>
+                    </div>
+                    
+                    <div class="avaliacao-card">
+                        <div class="avaliacao-header">
+                            <div class="avaliador-info">
+                                <strong>Ana Paula</strong>
+                                <span>@anapaula_f</span>
+                            </div>
+                            <div class="estrelas">★★★★★</div>
+                        </div>
+                        <p class="avaliacao-texto">"Atendimento excelente, os garçons são super atenciosos. O espetinho de queijo coalho é divino! Voltaremos sempre."</p>
+                        <div class="avaliacao-data">
+                            <i class="fas fa-check-circle" style="color: var(--verde);"></i>
+                            Cliente verificadov
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="avaliacoes-dots" id="avaliacoesDots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7️⃣ CHAMADA FINAL + LOCALIZAÇÃO -->
+    <section id="localizacao" class="final">
+        <div class="container">
+            <div class="final-content" data-aos="zoom-in">
+                <h2 class="final-title">🔥 Tá esperando o quê?</h2>
+                <p class="final-texto">Venha conhecer o Espetinho Brasil e experimente o verdadeiro sabor da Zona Leste. Te esperamos de braços abertos (e espetinhos na brasa)!</p>
+                
+                <a href="https://wa.me/5511999999999?text=Olá!%20Quero%20fazer%20um%20pedido%20🔥" 
+                   class="btn btn-wa btn-final" 
+                   target="_blank">
+                    <i class="fab fa-whatsapp"></i> Pedir agora pelo WhatsApp
+                </a>
+            </div>
+            
+            <!-- GOOGLE MAPS -->
+            <div class="mapa-wrapper" data-aos="fade-up">
+                <div class="mapa-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-pin" style="color: var(--verde);"></i>
+                        <div>
+                            <h4>Onde estamos</h4>
+                            <p>Rua das Brasas, 123 - Jardim América<br>Zona Leste, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-clock" style="color: var(--amarelo);"></i>
+                        <div>
+                            <h4>Horário de funcionamento</h4>
+                            <p>Terça a Domingo: 17h às 23h<br>Sábado: 11h às 23h (almoço + happy hour)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt" style="color: var(--azul);"></i>
+                        <div>
+                            <h4>Contato</h4>
+                            <p>(11) 99999-9999<br>contato@espetinhobrasil.com.br</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mapa-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.07323456789!2d-46.512345!3d-23.567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM0JzA0LjQiUyA0NsKwMzAnNDQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 20px;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        title="Localização do Espetinho Brasil">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content" data-aos="fade-up">
+                <h3>Fique por dentro das novidades 🔥</h3>
+                <p>Cadastre-se e receba promoções exclusivas e ofertas especiais</p>
+                
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn btn-wa">Quero receber</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🔥</span>
+                        <span class="logo-text">Espetinho<span>Brasil</span></span>
+                    </div>
+                    <p>O verdadeiro sabor brasileiro na Zona Leste de São Paulo. Mais que comida, uma experiência.</p>
+                    <div class="footer-social">
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                        <li><a href="#cardapio">Cardápio</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#localizacao">Localização</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Horário</h4>
+                    <ul class="horario-list">
+                        <li><span>Terça a Sexta:</span> 17h - 23h</li>
+                        <li><span>Sábado:</span> 11h - 23h</li>
+                        <li><span>Domingo:</span> 17h - 22h</li>
+                        <li><span>Segunda:</span> Fechado</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul class="contato-list">
+                        <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                        <li><i class="fas fa-envelope"></i> contato@espetinhobrasil.com.br</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Rua das Brasas, 123 - Jardim América, São Paulo - SP</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Espetinho Brasil. Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fas fa-heart" style="color: #f3b229;"></i> na Zona Leste</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO VOLTAR AO TOPO -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
